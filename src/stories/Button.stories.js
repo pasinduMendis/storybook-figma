@@ -1,4 +1,5 @@
 import Button from "../components/button/button"
+import "../css/_variables.css"
 
 export default {
   title: "Components/Button",
@@ -8,37 +9,33 @@ export default {
 
 const Template = args => <Button {...args} />
 
-export const Red = Template.bind({})
-Red.args = {
-  backgroundColor: "red",
+export const Label = Template.bind({})
+Label.args = {
   label: "Press Me",
-  size: "md",
 }
 
-export const Green = Template.bind({})
-Green.args = {
-  backgroundColor: "green",
+export const PropStyleGreenBackground= Template.bind({})
+PropStyleGreenBackground.args = {
+  propStyles:{background: "green"},
   label: "Press Me",
-  size: "md",
 }
 
-export const Small = Template.bind({})
+ export const Small = Template.bind({})
 Small.args = {
-  backgroundColor: "red",
   label: "Press Me",
   size: "sm",
 }
 
 export const Large = Template.bind({})
 Large.args = {
-  backgroundColor: "red",
   label: "Press Me",
   size: "lg",
 }
 
+/*
 export const LongLabel = Template.bind({})
 LongLabel.args = {
   backgroundColor: "red",
   label: "Press Me adsf asdf asdf asdfasdfasd fasd fasd fasd",
   size: "md",
-}
+} */
