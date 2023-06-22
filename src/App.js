@@ -1,14 +1,15 @@
 
 import './App.css';
-import Button from './components/button/button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ButtonComponent from './components/button/button';
 
 function App() {
   const handleClick=()=>{
-    console.log("my test")
+    console.log("button working")
   }
   return (
-    <div className="App">
-      <Button label="test" backgroundColor = "green" size = "md" handleClick={()=>{handleClick()}}  />
+    <div>
+      <ButtonComponent  handleClick={()=>handleClick()} propStyles={{}} label="Get started"/>
     </div>
   );
 }
