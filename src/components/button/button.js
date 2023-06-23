@@ -9,14 +9,16 @@ const ButtonComponent = ({ label,size = "md", handleClick,propStyles={}}) =>{
     if (size === "lg") scale = 1.5
     const style = {
         ...propStyles,
-      padding: `${scale * 0.5}rem ${scale * 1}rem`,
-      border: "none",
+        padding: `${scale * 0.5}rem ${scale * 1}rem`,
     }
 
+
     return (
-      <Button onClick={()=>handleClick()} style={style}>
+      <>
+      <Button className="p-4" onClick={()=>handleClick()} style={style}>
         {label}
       </Button>
+      </>
     )
   }
 

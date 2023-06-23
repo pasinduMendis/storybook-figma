@@ -14,9 +14,9 @@ Label.args = {
   label: "Press Me",
 }
 
-export const PropStyleGreenBackground= Template.bind({})
-PropStyleGreenBackground.args = {
-  propStyles:{background: "green"},
+export const PropStyleGreenBackgroundAndFullWidth= Template.bind({})
+PropStyleGreenBackgroundAndFullWidth.args = {
+  propStyles:{background: "green",width:"100vw"},
   label: "Press Me",
 }
 
@@ -32,10 +32,3 @@ Large.args = {
   size: "lg",
 }
 
-/*
-export const LongLabel = Template.bind({})
-LongLabel.args = {
-  backgroundColor: "red",
-  label: "Press Me adsf asdf asdf asdfasdfasd fasd fasd fasd",
-  size: "md",
-} */

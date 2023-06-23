@@ -1,12 +1,12 @@
 import React from 'react'
 
-const LogoComponent= ({propStyle,label}) => {
-    const style={...propStyle}
+const LogoComponent= ({propStyles={},label}) => {
+    const style={...propStyles}
   return (
 
-    <div >
-        {label}
-    </div>
+    <div className="p-2 text-center" style={{ ...style,borderStyle: "solid" }} data-testid="logo-test">
+  {label}
+</div>
   )
 }
 

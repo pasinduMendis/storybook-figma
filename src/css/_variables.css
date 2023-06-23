@@ -1,12 +1,25 @@
 /**
  * Do not edit directly
- * Generated on Wed, 21 Jun 2023 12:37:00 GMT
+ * Generated on Thu, 22 Jun 2023 14:11:19 GMT
  */
 
 :root {
-  --global-color-red: #f50534;
-  --global-black: #000;
-  --global-lg: 24px;
-  --global-md: 16px;
-  --global-sm: 12px;
+  --global-logo-background-color: #CE0C6A;
+  --global-logo-font-color: #efe2e2;
+  --global-header-text-color: #00f512;
+  --global-button-background: #171ea0;
+  --global-button-radius: 20px;
+  --global-logo-radius: 30px;
+  --global-logo-background-opacity: 0.5;
+  --global-header-weight: 800;
+  --global-button-font-weight: 600;
+  --global-logo-font-weight: 600;
+  --global-header-font-size: 96px;
+  --global-logo-font-size: 72px;
+  --global-button-font-size: 48px;
+  --global-logo-border-width: 5px;
+  --global-button-border-width: 2px;
+  --global-button-border-color: #000;
+  --global-main-background: #8031D3;
+  --global-logo-border-color: #FFFBFB;
 }
