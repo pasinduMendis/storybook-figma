@@ -1,8 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ButtonComponent from './components/button/button';
-import LogoComponent from './components/logo';
-import HeaderTopic from './components/headerTopic';
 import Mypage from './pages/myPage';
 
 function App() {

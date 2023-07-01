@@ -4,7 +4,10 @@ import "../css/_variables.css"
 export default {
   title: "Components/Button",
   component: Button,
-  argTypes: { handleClick: { action: "handleClick" } },
+  argTypes: { handleClick: { action: "handleClick" },backgroundColor:{control:'color'} ,size: {
+    options: ['sm', 'md','lg'],
+    control: { type: 'radio' },
+  },},
 }
 
 const Template = args => <Button {...args} />

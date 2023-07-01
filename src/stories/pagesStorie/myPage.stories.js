@@ -1,9 +1,17 @@
 import Mypage from "../../pages/myPage"
 import "../../css/_variables.css"
+import { withDesign } from 'storybook-addon-designs'
 
 export default {
   title: "Pages/Mypage",
   component: Mypage,
+  decorators: [withDesign],
+  parameters: {
+    // design: {
+    //   type: 'figma',
+    //   url: 'https://www.figma.com/file/jXY3IYcIxfTyQsGCdDcfto/Untitled?type=design&node-id=0%3A1&mode=design&t=FwozOckqk6KWRvh9-1',
+    // }
+  },
   argTypes: {  },
 }
 
@@ -35,3 +43,15 @@ DefaultType.args = {
     hexToRgb: (val1,val2)=>hexToRgb(val1,val2),
 }
 
+export const DefaultType2= Template.bind({})
+DefaultType2.args = {
+    rootStyles:rootStyles,
+    hexToRgb: (val1,val2)=>hexToRgb(val1,val2),
+}
+
+DefaultType.parameters = {
+  design: {
+    type: 'figma',
+      url: 'https://www.figma.com/file/jXY3IYcIxfTyQsGCdDcfto/Untitled?type=design&node-id=0%3A1&mode=design&t=FwozOckqk6KWRvh9-1',
+  },
+}

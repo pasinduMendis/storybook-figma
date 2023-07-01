@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Thu, 22 Jun 2023 14:11:19 GMT
+ * Generated on Mon, 26 Jun 2023 09:43:57 GMT
  */
 
 :root {
   --global-logo-background-color: #CE0C6A;
   --global-logo-font-color: #efe2e2;
-  --global-header-text-color: #00f512;
+  --global-header-text-color: #d11b35;
   --global-button-background: #171ea0;
   --global-button-radius: 20px;
   --global-logo-radius: 30px;
@@ -22,4 +22,5 @@
   --global-button-border-color: #000;
   --global-main-background: #8031D3;
   --global-logo-border-color: #FFFBFB;
+  --my-page-test: #2e9b5b;
 }
