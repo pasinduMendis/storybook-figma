@@ -43,12 +43,6 @@ DefaultType.args = {
     hexToRgb: (val1,val2)=>hexToRgb(val1,val2),
 }
 
-export const DefaultType2= Template.bind({})
-DefaultType2.args = {
-    rootStyles:rootStyles,
-    hexToRgb: (val1,val2)=>hexToRgb(val1,val2),
-}
-
 DefaultType.parameters = {
   design: {
     type: 'figma',
